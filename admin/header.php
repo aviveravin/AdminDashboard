@@ -1,5 +1,5 @@
 <?php
-session_start(); 
+session_start();
 
   if (!isset($_SESSION['username'])) {
     $_SESSION['msg'] = "You must log in first";
@@ -64,7 +64,7 @@ session_start();
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
-   
+
     <!-- End Google Tag Manager -->
     </head>
 
@@ -352,7 +352,7 @@ session_start();
                             </ul>
                         </div>
                     </li>
-                
+
                     <li class="active-pro">
                     <a href="upgrade.php">
                         <i class="pe-7s-rocket"></i>
@@ -395,8 +395,8 @@ session_start();
                                     <i class="nc-icon nc-planet"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Create New Post</a>
-                                    <a class="dropdown-item" href="#">Manage Something</a>
+                                    <a class="dropdown-item" href="#">Create New Project</a>
+                                    <a class="dropdown-item" href="#">Create new Services</a>
                                     <a class="dropdown-item" href="#">Do Nothing</a>
                                     <a class="dropdown-item" href="#">Submit to live</a>
                                     <li class="divider"></li>
